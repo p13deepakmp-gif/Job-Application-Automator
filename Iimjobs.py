@@ -410,7 +410,7 @@ driver.get("https://www.iimjobs.com/recommended-jobs")
 
 # ----------------- 2. Scrolling Loop Function -----------------
 
-def scroll_to_end_and_load(driver, scroll_pause_time=2, max_loads=2):
+def scroll_to_end_and_load(driver, scroll_pause_time=2, max_loads=100):
     """Scrolls to the bottom of the page repeatedly until no new content loads."""
 
     print("Starting infinite scroll to load all job listings...")
